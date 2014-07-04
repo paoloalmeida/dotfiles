@@ -9,6 +9,10 @@ for file in ~/.{path,bash_prompt,exports,aliases,functions,extra}; do
 done;
 unset file;
 
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
+
+[ -s "/Users/paoloalmeida/.nvm/nvm.sh" ] && . "/Users/paoloalmeida/.nvm/nvm.sh" # This loads nvm
+
 # Case-insensitive globbing (used in pathname expansion)
 shopt -s nocaseglob;
 

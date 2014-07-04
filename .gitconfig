@@ -1,3 +1,8 @@
+[user]
+
+	name = paoloalmeida
+	email = paoloalmeida@ymail.com
+
 [alias]
 
 	# View abbreviated SHA, description, and history graph of the latest 20 commits
@@ -123,6 +128,7 @@
 	# installations. To use `simple` instead, add this to your `~/.extra` file:
 	# `git config --global push.default simple`. See http://git.io/mMah-w.
 	default = matching
+	#default = simple
 
 # URL shorthands
 
@@ -145,3 +151,5 @@
 [url "git://gist.github.com/"]
 
 	insteadOf = "gist:"
+
+

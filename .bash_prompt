@@ -97,11 +97,11 @@ else
 fi;
 
 # Highlight the hostname when connected via SSH.
-if [[ "${SSH_TTY}" ]]; then
-	hostStyle="${bold}${red}";
-else
-	hostStyle="${yellow}";
-fi;
+# if [[ "${SSH_TTY}" ]]; then
+# 	hostStyle="${bold}${red}";
+# else
+# 	hostStyle="${yellow}";
+# fi;
 
 # Set the terminal title to the current working directory.
 PS1="\[\033]0;\w\007\]";

@@ -1,8 +1,10 @@
 {
 	"bold_folder_labels": true,
-	"color_scheme": "Packages/User/Monokai Soda.tmTheme",
+	"caret_style": "phase",
+	"color_scheme": "Packages/Theme - Afterglow/Afterglow-monokai.tmTheme",
 	"default_encoding": "UTF-8",
 	"default_line_ending": "unix",
+	"detect_slow_plugins": false,
 	"file_exclude_patterns":
 	[
 		".DS_Store",
@@ -19,7 +21,8 @@
 		"node_modules"
 	],
 	"font_face": "Monaco",
-	"font_size": 12,
+	"font_size": 12.0,
+	"highlight_modified_tabs": true,
 	"hot_exit": false,
 	"ignored_packages":
 	[
@@ -30,12 +33,17 @@
 	"match_brackets": false,
 	"match_brackets_angle": true,
 	"remember_open_files": true,
+	"save_on_focus_lost": true,
+	"scroll_past_end": true,
 	"show_encoding": true,
+	"show_full_path": true,
 	"show_line_endings": true,
+	"soda_classic_tabs": false,
 	"soda_folder_icons": true,
-	"tab_size": 4,
-	"theme": "Soda Dark.sublime-theme",
+	"tab_size": 2,
+	"tabs_small": true,
+	"theme": "Afterglow-blue.sublime-theme",
 	"translate_tabs_to_spaces": false,
-	"trim_trailing_white_space_on_save": true,
+	"trim_trailing_white_space_on_save": false,
 	"word_wrap": true
 }

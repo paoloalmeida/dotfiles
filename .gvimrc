@@ -1,4 +1,4 @@
-" Use the Solarized Dark theme
+" Use the Molokai theme
 set background=dark
 colorscheme molokai
 " Use 12pt Monaco

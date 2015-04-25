@@ -1,3 +1,11 @@
+# Add yourself some shortcuts to projects you often work on
+# Example:
+#
+# brainstormr=/Users/robbyrussell/Projects/development/planetargon/brainstormr
+# folders structure
+alias retencao='~/Sites/retencao'
+alias rkms='rake db:migrate:reset && rake db:seed'
+
 # Easier navigation: .., ..., ...., ....., ~ and -
 alias ..="cd .."
 alias ...="cd ../.."
@@ -15,6 +23,8 @@ alias s="cd ~/Sites"
 alias g="git"
 alias h="history"
 alias j="jobs"
+alias sub="'/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl'"
+export EDITOR="subl"
 
 # Detect which `ls` flavor is in use
 if ls --color > /dev/null 2>&1; then # GNU `ls`

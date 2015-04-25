@@ -87,6 +87,10 @@ brew install speedtest_cli
 brew install tree
 brew install webkit2png
 brew install zopfli
+brew install zsh zsh-completions
+brew cask install vagrant
+brew cask install vagrant-manager
+brew install heroku-toolbelt
 
 # Install Node.js. Note: this installs `npm` too, using the recommended
 # installation method.

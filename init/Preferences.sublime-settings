@@ -1,7 +1,7 @@
 {
 	"bold_folder_labels": true,
 	"caret_style": "phase",
-	"color_scheme": "Packages/Theme - Afterglow/Afterglow-monokai.tmTheme",
+	"color_scheme": "Packages/User/SublimeLinter/Monokai Extended (SL).tmTheme",
 	"default_encoding": "UTF-8",
 	"default_line_ending": "unix",
 	"detect_slow_plugins": false,
@@ -21,13 +21,28 @@
 		"node_modules"
 	],
 	"font_face": "Monaco",
-	"font_size": 12,
+	"font_size": 12.0,
 	"highlight_modified_tabs": true,
 	"hot_exit": false,
 	"ignored_packages":
 	[
-		"Vintage",
-		"LiveStyle"
+		"Clipboard History",
+		"Color Highlighter",
+		"Comment-Snippets",
+		"CSS Comments",
+		"CSS3",
+		"Dashed Comments",
+		"Hayaku - tools for writing CSS faster",
+		"HTMLBeautify",
+		"JavaScript Console",
+		"JavaScript Patterns",
+		"JavaScriptNext - ES6 Syntax",
+		"JSLint",
+		"JsMinifier",
+		"LiveStyle",
+		"Markdown",
+		"Themr",
+		"Vintage"
 	],
 	"line_padding_bottom": 5,
 	"match_brackets": false,
